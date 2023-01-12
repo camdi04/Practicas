@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px,200px);
+    }
+    .uno {
+        grid-column: 1;
+        grid-row: 1;
+        border: thick double #0713b3;
+    }
+    .dos {
+        grid-column: 2;
+        grid-row: 1 / 2;
+        border: thick double #9c5ce4;
+    }
+    .tres {
+        grid-column: 3;
+        grid-row: 1 / 2;
+        border: thick double #e235c5;
+    }
+    .cuatro {
+        grid-column: 1;
+        grid-row: 2;
+        border: thick double #08b820;
+    }
+    .cinco {
+        grid-column: 2;
+        grid-row: 2/2;
+        border: thick double #f85e16;
+    }
+    .seis {
+        grid-column: 3;
+        grid-row: 2/3;
+        border: thick double #e9da0f;
+    }
+    .siete {
+            grid-column: 1;
+            grid-row: 3;
+            border: thick double #12a9e6;
+    }
+    .ocho {
+            grid-column: 2;
+            grid-row: 3/3;
+            border: thick double #df1e28;
+    }
+    .nueve {
+            grid-column: 3;
+            grid-row: 3/3;
+            border: thick double #080808;
+}
+
+
+
+
+
+
+
